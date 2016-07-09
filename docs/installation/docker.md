@@ -7,6 +7,7 @@ To get NetBox up and running:
 ```
 git clone -b master https://github.com/digitalocean/netbox.git
 cd netbox
+docker build -t digitalocean/netbox:latest .
 docker-compose up -d
 ```
 
